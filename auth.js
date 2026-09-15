@@ -35,7 +35,7 @@ Il2Cpp.perform(() => {
     const CapiClass = klass(OculusPlatformImage, "Oculus.Platform.CAPI");
 
     const TomahawkImage = image("TomahawkGamePlugin");
-    const TomahawkGamePlugin = klass(TomahawkImage, "TomahawkGamePlugin");
+    const TomahawkGamePlugin = klass(TomahawkImage, "Tomahawk.TomahawkGamePlugin");
     const weirdtomahawkclass = weirdclass(TomahawkImage, "<>c");
 
     const replacedTokenUrls = [
