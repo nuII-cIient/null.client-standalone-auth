@@ -81,6 +81,6 @@ Il2Cpp.perform(() => {
         return this.method("SendAsync").invoke(method, uri, headers, body, timeout, cancelToken);
     };
 
-    replacemethod(method(UnityWebRequestAdapter, "SendAsync"), SendAsyncMethod);
-    replacemethod(method(EditorRequestAdapter, "SendAsync"), SendAsyncMethod);
+    replacemethod(method(UnityWebRequestAdapterClass, "SendAsync"), SendAsyncMethod);
+    replacemethod(method(EditorRequestAdapterClass, "SendAsync"), SendAsyncMethod);
 }, "main");
